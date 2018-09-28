@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+
+public class catchTheCreature {
+    public catchTheCreature() {
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Catch Le Pen");
+        frame.setDefaultCloseOperation(3);
+        frame.getContentPane().add(new creaturePanel());
+        frame.pack();
+        frame.setVisible(true);
+    }
+}
